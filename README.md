@@ -1,29 +1,22 @@
-# Doxygen dark theme
+# Doxygen Dark Theme
 
-Theme implements dark colors implementation for doxygen documentation generator.
-Selected colors are inspiration from Sublime Text syntax highligher for C language.
+Theme inspired by the Dark+ theme in the Visual Studio Code editor.
 
-## Demo
+The theme based on Tilen Majerles project on the MIT Licence.
+[MaJerle/doxygen-dark-theme](https://github.com/MaJerle/doxygen-dark-theme)
 
-Demo of the dark theme is available at https://majerle.eu/documentation/esp_at/html/index.html
+## Preview
+![img](doc/example1.jpg)
 
-# How to use it
+## How to change doxygen theme
 
-Usage is very simple. You just need to modify your doxygen input file
-
-```
-# Add files to extra stylesheet
-
-HTML_EXTRA_STYLESHEET  = "custom.css" \
-                         "custom_dark_theme.css"
-```
-
-If you wish to use custom made HTML header and footer, enable this feature with
+Just modify 3 linex of doxygen config file (default Doxfile):
 
 ```
-# Custom header
-HTML_HEADER            = "html_header.html"
+HTML_EXTRA_STYLESHEET  = "<path>/custom.css"
+```
 
-# Custom footer
-HTML_FOOTER            = "html_footer.html"
+```
+HTML_HEADER            = "<path>/html_header.html"
+HTML_FOOTER            = "<path>/html_footer.html"
 ```
