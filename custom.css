@@ -105,6 +105,7 @@ h4.glow, h5.glow, h6.glow {
 ul#main-menu li a:link,
 ul#main-menu li a:visited {
 	color:#d4d4d4!important;
+	font-family:Calibri;
 }
 #main-nav,
 #main-nav ul,
@@ -233,7 +234,10 @@ a.SelectItem:hover {
 	background: #252525;
 }
 #nav-tree-contents ul li a {
-	color:#dcdcaa !important;
+	color:#d4d4d4 !important;
+}
+#side-nav {
+	padding:0 !important;
 }
 
 /** ------------------------------------------- */
@@ -740,6 +744,23 @@ a.qindex {
 	border:none;
 }
 
+/** ------------------------------------------- */
+/*??? Responsible	 							*/
+/** ------------------------------------------- */
+@media (max-width:768px){
+	#main-nav {
+		display:none;
+	}
+}
 
-
-
+/** ------------------------------------------- */
+/*??? Fold/unfold side bar						*/
+/** ------------------------------------------- */
+#menu-unfold-button {
+	position:fixed;
+	top:30px;
+	left:30px;
+	min-width:20px;
+	min-height:20px;
+	background-color:red;
+}
