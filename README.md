@@ -6,7 +6,7 @@ The theme based on Tilen Majerles project on the MIT Licence.
 [MaJerle/doxygen-dark-theme](https://github.com/MaJerle/doxygen-dark-theme)
 
 ## Preview
-See example: [DEMO (maatiug/Minesweeper)](https://maatiug.github.io/Minesweeper/)
+See example: [DEMO (maatiug/Minesweeper)](https://goorkamateusz.github.io/Minesweeper/)
 
 ![img](doc/example1.jpg)
 
