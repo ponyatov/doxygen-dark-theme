@@ -76,10 +76,11 @@ h4.glow, h5.glow, h6.glow {
 	font-size:10px!important;
 }
 #projectbrief {
-	font-size:12px!important;
+	font-size:14px!important;
 	margin-left:12px;
 	margin-top:4px;
-	font-family:monospace!important;
+    /* font-weight: bold!important; */
+	/* font-family:monospace!important; */
 }
 #projectarea tr {
 	height:26px !important;
