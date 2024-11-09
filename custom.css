@@ -67,28 +67,28 @@ h4.glow, h5.glow, h6.glow {
 	border:none;
 }
 #projectname {
-	font-family:calibri!important;
+	font-family:monospace!important;
 	font-size:120%!important;
 	font-weight:800;
 }
 #projectnumber {
-	font-family:calibri!important;
+	font-family:monospace!important;
 	font-size:10px!important;
 }
 #projectbrief {
 	font-size:12px!important;
 	margin-left:12px;
 	margin-top:4px;
-	font-family:calibri!important;
+	font-family:monospace!important;
 }
 #projectarea tr {
 	height:26px !important;
 }
 #projectlogo {
-	min-width:60px;
+	/* min-width:60px; */
 }
 #projectlogo img {
-	height:18px;
+	height:32px;
 	margin:4px auto;
 }
 
@@ -105,7 +105,7 @@ h4.glow, h5.glow, h6.glow {
 ul#main-menu li a:link,
 ul#main-menu li a:visited {
 	color:#d4d4d4!important;
-	font-family:Calibri;
+	/* font-family:monospace; */
 }
 #main-nav,
 #main-nav ul,
